@@ -11,10 +11,10 @@
 <div class="wrap">
   <p class="eyebrow">Legal</p>
   <h1>Privacy Policy</h1>
-  <p class="updated">Last updated: September 21, 2026</p>
+  <p class="updated">Last updated: October 1, 2026</p>
 
   <div class="card">
-    <p>Atlas is local-first. Your financial data stays on your device unless you choose optional iCloud sync or optional bank linking. Atlas does not operate servers for core features and does not sell your information.</p>
+    <p>Atlas is local-first. Your financial data stays on your device unless you choose optional iCloud sync. Atlas does not operate servers for core features and does not sell your information.</p>
   </div>
 
   <h2>Information We Collect</h2>
@@ -26,8 +26,8 @@
     <li><strong>iCloud sync (optional).</strong> If you turn on Sync with iCloud in Settings, an encrypted copy syncs through Apple's CloudKit to devices signed into the same Apple ID. Atlas never sees your Apple ID password.</li>
   </ul>
 
-  <h2>Atlas Premium &amp; Bank Sync</h2>
-  <p>Atlas Premium is an optional subscription. If you enable bank sync, you connect through Plaid using a relay you deploy (e.g. Cloudflare Worker). Your Plaid credentials stay on your relay — not on Atlas servers. Atlas the company does not host this relay.</p>
+  <h2>Purchases &amp; Bank Sync</h2>
+  <p>This App Store release is free and does not offer subscriptions or in-app purchases. Bank connections are not offered in this release; accounts, bills, and activity can be added manually or by CSV import.</p>
 
   <h2>Profile Photo</h2>
   <p>If you add a profile photo, it is saved only on your device (and in your iCloud container if sync is enabled). It is never uploaded to Atlas.</p>
@@ -42,7 +42,8 @@
   <p>Bill and cash-flow alerts are optional local notifications scheduled on your device. No server is involved.</p>
 
   <h2>Analytics &amp; Advertising</h2>
-  <p>Atlas contains no third-party analytics SDKs, no advertising SDKs, and no crash reporting services. The app maintains anonymous on-device event counters (e.g. onboarding completed) that are never transmitted.</p>
+  <p>Atlas does not use advertising SDKs, IDFA, or cross-app tracking. If you explicitly enable Anonymous product analytics, Atlas uses PostHog to receive limited product events for activation and returning use. Events are grouped by an anonymous app-install identifier and may include the app version and a non-identifying campaign label.</p>
+  <p>Analytics events do not include names, email addresses, account identifiers, paycheck amounts, pay dates, bill names, due dates, balances, transactions, bank information, or other financial content. Analytics are optional and can be turned off in Settings.</p>
 
   <h2>Children's Privacy</h2>
   <p>Atlas is not directed at children under 13.</p>
